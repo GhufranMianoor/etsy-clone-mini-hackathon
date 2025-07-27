@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Etsy Hackathon Project</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <!-- Poppins font: -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap CSS: -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Bootstrap js: -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- fontawesone cdn: -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <nav>
+    <div class="nav-items">
+      <span class="logo">Etsy</span>
+      <li>
+        <div class="dropdown">
+          <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Categories<i class="fa-solid fa-bars"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-light">
+            <li><a class="dropdown-item active" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-warning" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+      </li>
+      <li><a href="#">Sign in</a></li>
+      <li><i class="fa-regular fa-heart"></i></li>
+      <li><i class="fa-solid fa-gift"></i></li>
+      <li><i class="fa-solid fa-cart-shopping"></i></li>
+    </div>
+  </nav>
+  <main>
+    <div class="row r-main m-4 rounded">
+      <div class="col-12 col-md-8 col-lg-8 main-card rounded ">
+        <div class="row r1 rounded" style="height: 100%;">
+          <div class="col-12 col-md-6 col-lg-6 intro-card">
+            <h1>Student<br>Standouts.</h1>
+            <p>Student standouts Head to class</p>
+            <div class="button-intro">Head to class</div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 img-card rounded">
+            <img src="https://i.etsystatic.com//ij//301c59//7056949951//ij_fullxfull.7056949951_8d6lsl1h.jpg?"
+              alt="etsy-img1" width="100%" height="100%">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 col-lg-4 bagpack-card">
+        <img src="./images/bag-pack.webp" class="card-img-top" alt="..." width="100%">
+
+      </div>
+    </div>
+    </div>
+    <div class="img-gallery">
+      <h2>
+
+        Find things you'll love. Support independent sellers. Only on Etsy.
+
+      </h2>
+      <div class="imag-cards">
+        <li><img src="./images/img-1.webp" alt=""><br><br>Personalized Gifts</li>
+        <li><img src="./images/img-2.webp" alt=""><br><br>DIY & Crafts</li>
+        <li><img src="./images/img3.webp" alt=""><br><br>For Kids & Babies</li>
+        <li><img src="./images/img-3.webp" alt=""><br><br>Jewelery</li>
+        <li><img src="./images/img4.webp" alt=""><br><br>Wedding & Engagement</li>
+        <li><img src="./images/img5.webp" alt=""><br><br>On Sale</li>
+      </div>
+    </div>
+    <div class="shopping-cards">
+      <h2>Picks inspired by your shopping</h2>
+      <div class="cards-wrapper-sh">
+        <div class="imag-cards-sh">
+          <li><img src="./images/sh-bags.avif" alt=""></li>
+          <li><img src="./images/sh-bags2.webp" alt=""></li>
+          <li><img src="./images/sh-bags3.avif" alt=""></li>
+          <li><img src="./images/sh-bags4.webp" alt=""></li>
+          <li><img src="./images/sh-bags5.avif" alt=""></li>
+        </div>
+      </div>
+    </div>
+    <div class="shopping-cards">
+      <h2>
+        Discover our best of summer 2025
+      </h2>
+      <div class="cards-wrapper-sh">
+        <div class="imag-cards-sh">
+          <li><img src="https://i.etsystatic.com/ij/182207/7078992349/ij_300x300.7078992349_f1cytny8.jpg?version=0"
+              alt=""><br><br>New Arrival</li>
+          <li><img src="https://i.etsystatic.com/ij/3f3488/7039790898/ij_300x300.7039790898_imd0uco5.jpg?version=0"
+              alt=""><br><br>Top 100 Summer Best Sellers</li>
+          <li><img src="https://i.etsystatic.com/ij/adac24/7039795918/ij_300x300.7039795918_o41nmy7s.jpg?version=0"
+              alt=""><br><br>Top 100 Summer Linen Finds</li>
+          <li><img src="https://i.etsystatic.com/ij/201d0e/7087771889/ij_300x300.7087771889_6he1nm3w.jpg?version=0"
+              alt=""><br><br>Top 100 Summer Hosting Essentials</li>
+          <li><img src="https://i.etsystatic.com/ij/635e88/7039801232/ij_300x300.7039801232_abjnxv4x.jpg?version=0"
+              alt=""><br><br>Top 100 Back to School Essentials</li>
+        </div>
+      </div>
+    </div>
+    <div class="shopping-cards">
+      <h2>
+        Shop our most-loved categories
+      </h2>
+      <div class="cards-wrapper-sh">
+        <div class="imag-cards-sh">
+          <li><img src="./images/sl-1.webp" alt=""></li>
+          <li><img src="./images/sl2.webp" alt=""></li>
+          <li><img src="./images/sl3.webp" alt=""></li>
+          <li><img src="./images/sl4.webp" alt=""></li>
+          <li><img src="./images/sl5.webp" alt=""></li>
+        </div>
+      </div>
+    </div>
+    <div class="shopping-cards">
+      <h2>
+        Shop our most-loved categories
+      </h2>
+      <div class="cards-wrapper-sh">
+        <div class="imag-cards-sh">
+          <li><img src="https://i.etsystatic.com/53089579/r/il/249da8/7011694046/il_300x300.7011694046_4k1y.jpg" alt="">
+          </li>
+          <li><img
+              src="https://i.etsystatic.com/24624848/c/2000/2000/0/0/il/21eb80/5447178603/il_300x300.5447178603_5mwb.jpg"
+              alt=""></li>
+          <li><img src="./images/sh-bags5.avif" alt=""></li>
+          <li><img src="https://i.etsystatic.com/49272564/r/il/581163/6422453231/il_300x300.6422453231_7ppq.jpg" alt="">
+          </li>
+          <li><img src="https://i.etsystatic.com/18909216/r/il/d623ac/3709862656/il_300x300.3709862656_qnd3.jpg" alt="">
+          </li>
+        </div>
+      </div>
+    </div>
+    <div class="about">
+      <h1>What is Etsy?</h1>
+      <a href="#">Read our wonderful weird story</a>
+      <br>
+      <div class="info-crds">
+        <div class="crd">
+          <h2>A community doing good</h2> <br>
+          <p> Etsy is a global online marketplace, where people come together to make, sell, buy and collect unique
+            items. We're also a community pushing for positive change for small businesses, people, and the planet. Here
+            are some of the ways we're making a positive impact, together. </p>
+        </div>
+        <div class="crd">
+          <h2>Support independent creators </h2> <br>
+          <p>There's no Etsy warehouse - just millions of people selling the things they love. We make the whole process
+            easy, helping you connect directly with makers to find something extraordinary. </p>
+        </div>
+        <div class="crd">
+          <h2>Peace of mind</h2><br>
+          <p>Your privacy is the highest priority of our dedicated team. And if you ever need assistance, we are always
+            ready to step in for support. </p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
